@@ -9,12 +9,27 @@
 </head>
 <body>
     <form action="">
-        <label for="estados">Estados</label>
-        <select name="Estados" id="Estados"></select>
+        <label for="estado">Estado</label>
+        <select name="Estado" id="Estado">
+            <option value="Ceará">Ceará</option>
+            <option value="São Paulo">São Paulo</option>
+        </select>
+
         <label for="cidade">Cidade</label>
-        <select name="Cidade" id="Cidade"></select>
+        <select name="Cidade" id="Cidade">
+            <option value="Fortaleza">Fortaleza</option>
+            <option value="Natal">Natal</option>
+        </select>
+        
         <label for="logradouro">Logradouro</label>
         <input type="text" id="Logradouro" placeholder="Rua,endereço e número">
+        
+        <label for="região">Região</label>
+        <select name="Região" id="Região">
+            <option value="Nordeste">Nordeste</option>
+            <option value="Sul">Sul</option>
+        </select>
+        <button type="submit">Buscar</button>
     </form>
     
 </body>

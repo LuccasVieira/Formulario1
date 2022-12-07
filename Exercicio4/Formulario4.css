@@ -3,22 +3,20 @@
     margin: 0;
     box-sizing: border-box;
 }
-
 body{
-    background-color: rgb(234, 238, 240);
+    background-color: rgb(234, 234, 236);
 }
 form{
-    width: 500px;
-    background-color: rgb(39, 180, 199);
-    padding: 50px;
+    width: 300px;
+    background-color: rgb(28, 86, 104);
+    padding: 16px;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
     border-radius: 10px;
 
-}
-form label, form input{
+}form label, form input{
     width: 100%;
     display: block;
     margin-bottom: 10px;
@@ -26,7 +24,23 @@ form label, form input{
 form input{
     height: 40px;
     padding-left: 10px;
-    border: 1px solid;
+    border: 1px;
+}
+
+form input[type="radio"],form input[type="checkbox"]{
+    width: auto;
+    height: auto;
+    display: inline; 
+}
+/* form input[type="checkbox"]{
+    width:auto;
+    height:auto;
+    display:inline;
+}*/
+
+form .meia-label{
+    display: inline-block;
+    width: 40%;
 }
 
 form button{
@@ -40,3 +54,4 @@ form button{
     border-radius: 5px;
     display: block;
 }
+    
